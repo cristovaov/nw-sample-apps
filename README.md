@@ -1,3 +1,5 @@
+## updated as my NWjs learning playground  -Cris.
+
 # Sample apps for node-webkit
 
 Here are some sample apps for [node-webkit](https://github.com/rogerwang/node-webkit),
