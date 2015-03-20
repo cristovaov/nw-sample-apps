@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Polymer tutorial app for nwjs",
   "main": "finished/index.html",
+  "window": {
+    "toolbar": false
+    },    
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
