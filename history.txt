@@ -1,0 +1,596 @@
+## For posterity, as history was lost with git mv'ing the dirs ##
+
+commit b316493
+Merge: 38161d0 5971dfa
+Author: Cheng Zhao <zcbenz@gmail.com>
+Date:   Fri Nov 28 10:41:16 2014 +0800
+
+    Merge pull request #19 from gwicksted/patch-2
+    
+    Fixed malformed HTML
+
+commit 5971dfa
+Author: Graeme Wicksted <graeme.wicksted@gmail.com>
+Date:   Wed Nov 26 14:20:55 2014 -0500
+
+    Fixed malformed HTML
+    
+    The div tag for "close" was not closed which caused clicking the [x] to fail.
+
+webgl/index.html
+
+commit 38161d0
+Merge: dde2ffe fe96d25
+Author: Cheng Zhao <zcbenz@gmail.com>
+Date:   Tue Mar 26 19:41:39 2013 -0700
+
+    Merge pull request #4 from drewish/undefined-alert
+    
+    Use window.alert() since it should be defined.
+
+commit fe96d25
+Author: andrew morton <drewish@katherinehouse.com>
+Date:   Sun Mar 24 23:40:07 2013 -0700
+
+    Use window.alert() since it should be defined.
+
+file-explorer/node_modules/folder_view.js
+file-explorer/node_modules/mime.js
+
+commit dde2ffe
+Merge: 5de2bfa 3df6302
+Author: Cheng Zhao <zcbenz@gmail.com>
+Date:   Wed Mar 6 17:28:04 2013 -0800
+
+    Merge pull request #3 from toots/master
+    
+    Mp3 encoder example
+
+commit 3df6302
+Author: Romain Beauxis <toots@rastageeks.org>
+Date:   Wed Mar 6 13:50:41 2013 -0600
+
+    Updated README.md
+
+mp3-encoder/README.md
+
+commit a5d9d3b
+Author: Romain Beauxis <toots@rastageeks.org>
+Date:   Wed Mar 6 13:47:32 2013 -0600
+
+    Added mp3-encoder.
+
+mp3-encoder/Cakefile
+mp3-encoder/README.md
+mp3-encoder/index.html
+mp3-encoder/lib/main.js
+mp3-encoder/package.json
+mp3-encoder/src/main.coffee
+mp3-encoder/src/utils/encoder.coffee
+mp3-encoder/src/views/form.coffee
+mp3-encoder/vendor/bin/osx/shineenc
+mp3-encoder/vendor/bin/win32/libshine-1.dll
+mp3-encoder/vendor/bin/win32/shineenc.exe
+mp3-encoder/vendor/js/backbone.js
+mp3-encoder/vendor/js/jquery.js
+mp3-encoder/vendor/js/underscore.js
+
+commit 5de2bfa
+Merge: a75cba1 cebca84
+Author: Cheng Zhao <zcbenz@gmail.com>
+Date:   Wed Feb 13 17:09:32 2013 -0800
+
+    Merge pull request #2 from codeboost/patch-1
+    
+    Fix spelling
+
+commit cebca84
+Author: Florin <florin@libertv.ro>
+Date:   Thu Feb 14 00:16:29 2013 +0100
+
+    Fix spelling
+
+file-explorer/index.html
+
+commit a75cba1
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Dec 2 20:01:11 2012 +0800
+
+    remove .DS_Store
+
+file-explorer/node_modules/.DS_Store
+
+commit 8c89cf9
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Dec 2 13:20:37 2012 +0800
+
+    Modify code to the changes of Menu API. Fix #1.
+
+.gitignore
+file-explorer/node_modules/jade/.DS_Store
+mini-code-edit/editor.js
+
+commit 8479f4f
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Nov 4 15:19:24 2012 +0800
+
+    Add file-explorer back (with jade).
+
+file-explorer/README.md
+file-explorer/bootstrap/css/bootstrap-responsive.css
+file-explorer/bootstrap/css/bootstrap-responsive.min.css
+file-explorer/bootstrap/css/bootstrap.css
+file-explorer/bootstrap/css/bootstrap.min.css
+file-explorer/bootstrap/img/glyphicons-halflings-white.png
+file-explorer/bootstrap/img/glyphicons-halflings.png
+file-explorer/bootstrap/js/bootstrap.js
+file-explorer/bootstrap/js/bootstrap.min.js
+file-explorer/icons/blank.png
+file-explorer/icons/compressed.png
+file-explorer/icons/css.png
+file-explorer/icons/developer.png
+file-explorer/icons/excel.png
+file-explorer/icons/fireworks.png
+file-explorer/icons/flash.png
+file-explorer/icons/folder.png
+file-explorer/icons/html.png
+file-explorer/icons/illustrator.png
+file-explorer/icons/image.png
+file-explorer/icons/keynote.png
+file-explorer/icons/movie.png
+file-explorer/icons/music.png
+file-explorer/icons/numbers.png
+file-explorer/icons/pages.png
+file-explorer/icons/pdf.png
+file-explorer/icons/photoshop.png
+file-explorer/icons/powerpoint.png
+file-explorer/icons/text.png
+file-explorer/icons/word.png
+file-explorer/images/htmlbg.png
+file-explorer/index.html
+file-explorer/js/jquery-1.7.2.js
+file-explorer/main.js
+file-explorer/node_modules/.DS_Store
+file-explorer/node_modules/address_bar.js
+file-explorer/node_modules/folder_view.js
+file-explorer/node_modules/jade/.DS_Store
+file-explorer/node_modules/jade/index.js
+file-explorer/node_modules/jade/lib/compiler.js
+file-explorer/node_modules/jade/lib/doctypes.js
+file-explorer/node_modules/jade/lib/filters.js
+file-explorer/node_modules/jade/lib/index.js
+file-explorer/node_modules/jade/lib/inline-tags.js
+file-explorer/node_modules/jade/lib/jade.js
+file-explorer/node_modules/jade/lib/lexer.js
+file-explorer/node_modules/jade/lib/nodes/attrs.js
+file-explorer/node_modules/jade/lib/nodes/block-comment.js
+file-explorer/node_modules/jade/lib/nodes/block.js
+file-explorer/node_modules/jade/lib/nodes/case.js
+file-explorer/node_modules/jade/lib/nodes/code.js
+file-explorer/node_modules/jade/lib/nodes/comment.js
+file-explorer/node_modules/jade/lib/nodes/doctype.js
+file-explorer/node_modules/jade/lib/nodes/each.js
+file-explorer/node_modules/jade/lib/nodes/filter.js
+file-explorer/node_modules/jade/lib/nodes/index.js
+file-explorer/node_modules/jade/lib/nodes/literal.js
+file-explorer/node_modules/jade/lib/nodes/mixin.js
+file-explorer/node_modules/jade/lib/nodes/node.js
+file-explorer/node_modules/jade/lib/nodes/tag.js
+file-explorer/node_modules/jade/lib/nodes/text.js
+file-explorer/node_modules/jade/lib/parser.js
+file-explorer/node_modules/jade/lib/runtime.js
+file-explorer/node_modules/jade/lib/self-closing.js
+file-explorer/node_modules/jade/lib/utils.js
+file-explorer/node_modules/jade/package.json
+file-explorer/node_modules/mime.js
+file-explorer/node_modules/underscore.js
+file-explorer/package.json
+file-explorer/style.css
+
+commit bdb0804
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Nov 4 15:17:05 2012 +0800
+
+    Remove file-explorer (got some git errors)
+
+file-explorer/README.md
+file-explorer/bootstrap/css/bootstrap-responsive.css
+file-explorer/bootstrap/css/bootstrap-responsive.min.css
+file-explorer/bootstrap/css/bootstrap.css
+file-explorer/bootstrap/css/bootstrap.min.css
+file-explorer/bootstrap/img/glyphicons-halflings-white.png
+file-explorer/bootstrap/img/glyphicons-halflings.png
+file-explorer/bootstrap/js/bootstrap.js
+file-explorer/bootstrap/js/bootstrap.min.js
+file-explorer/icons/blank.png
+file-explorer/icons/compressed.png
+file-explorer/icons/css.png
+file-explorer/icons/developer.png
+file-explorer/icons/excel.png
+file-explorer/icons/fireworks.png
+file-explorer/icons/flash.png
+file-explorer/icons/folder.png
+file-explorer/icons/html.png
+file-explorer/icons/illustrator.png
+file-explorer/icons/image.png
+file-explorer/icons/keynote.png
+file-explorer/icons/movie.png
+file-explorer/icons/music.png
+file-explorer/icons/numbers.png
+file-explorer/icons/pages.png
+file-explorer/icons/pdf.png
+file-explorer/icons/photoshop.png
+file-explorer/icons/powerpoint.png
+file-explorer/icons/text.png
+file-explorer/icons/word.png
+file-explorer/images/htmlbg.png
+file-explorer/index.html
+file-explorer/js/jquery-1.7.2.js
+file-explorer/main.js
+file-explorer/node_modules/address_bar.js
+file-explorer/node_modules/folder_view.js
+file-explorer/node_modules/jade
+file-explorer/node_modules/mime.js
+file-explorer/node_modules/underscore.js
+file-explorer/package.json
+file-explorer/style.css
+
+commit 3a57fef
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Tue Oct 23 14:27:34 2012 +0800
+
+    Use Shell functions in file explorer.
+
+file-explorer/main.js
+file-explorer/node_modules/shell.js
+
+commit 85c6e3a
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Mon Oct 22 08:27:47 2012 +0800
+
+    Don't set image for checkbox in menus demo.
+
+README.md
+menus/.DS_Store
+menus/imgs/.DS_Store
+menus/script.js
+
+commit 382d171
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sat Oct 20 13:42:08 2012 +0800
+
+    Add menu demo.
+
+frameless-window/package.json
+menus/.DS_Store
+menus/README.md
+menus/imgs/.DS_Store
+menus/imgs/apple.png
+menus/imgs/banaba.png
+menus/imgs/cut.png
+menus/imgs/disk.png
+menus/imgs/edit.png
+menus/imgs/email.png
+menus/imgs/pear.png
+menus/imgs/play.png
+menus/imgs/strawberry.png
+menus/imgs/tick.png
+menus/index.html
+menus/package.json
+menus/script.js
+webgl/package.json
+
+commit 06613df
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Oct 14 17:18:15 2012 +0800
+
+    Replace jquery with zepto in mini-code-edit.
+
+mini-code-edit/editor.js
+mini-code-edit/jquery-1.7.2.min.js
+mini-code-edit/main.html
+mini-code-edit/zepto.min.js
+
+commit df65048
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Oct 14 10:29:42 2012 +0800
+
+    Add webgl demo.
+
+webgl/README.md
+webgl/icon_128.png
+webgl/img/button_close.png
+webgl/img/button_close_hover.png
+webgl/index.html
+webgl/js/Detector.js
+webgl/js/showlogo3d.js
+webgl/js/three.min.js
+webgl/obj/html5rocks.js
+webgl/package.json
+webgl/styles/main.css
+
+commit 6fd6e05
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Oct 14 10:10:40 2012 +0800
+
+    Add node-webkit requirements.
+
+file-explorer/README.md
+frameless-window/README.md
+mini-code-edit/README.md
+
+commit d90d3e7
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Oct 14 10:04:55 2012 +0800
+
+    Add file explorer demo.
+
+file-explorer/README.md
+file-explorer/bootstrap/css/bootstrap-responsive.css
+file-explorer/bootstrap/css/bootstrap-responsive.min.css
+file-explorer/bootstrap/css/bootstrap.css
+file-explorer/bootstrap/css/bootstrap.min.css
+file-explorer/bootstrap/img/glyphicons-halflings-white.png
+file-explorer/bootstrap/img/glyphicons-halflings.png
+file-explorer/bootstrap/js/bootstrap.js
+file-explorer/bootstrap/js/bootstrap.min.js
+file-explorer/icons/blank.png
+file-explorer/icons/compressed.png
+file-explorer/icons/css.png
+file-explorer/icons/developer.png
+file-explorer/icons/excel.png
+file-explorer/icons/fireworks.png
+file-explorer/icons/flash.png
+file-explorer/icons/folder.png
+file-explorer/icons/html.png
+file-explorer/icons/illustrator.png
+file-explorer/icons/image.png
+file-explorer/icons/keynote.png
+file-explorer/icons/movie.png
+file-explorer/icons/music.png
+file-explorer/icons/numbers.png
+file-explorer/icons/pages.png
+file-explorer/icons/pdf.png
+file-explorer/icons/photoshop.png
+file-explorer/icons/powerpoint.png
+file-explorer/icons/text.png
+file-explorer/icons/word.png
+file-explorer/images/htmlbg.png
+file-explorer/index.html
+file-explorer/js/jquery-1.7.2.js
+file-explorer/main.js
+file-explorer/node_modules/address_bar.js
+file-explorer/node_modules/folder_view.js
+file-explorer/node_modules/jade
+file-explorer/node_modules/mime.js
+file-explorer/node_modules/shell.js
+file-explorer/node_modules/underscore.js
+file-explorer/package.json
+file-explorer/style.css
+
+commit 681a368
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sun Oct 14 09:51:19 2012 +0800
+
+    Add frameless window demo app.
+
+frameless-window/README.md
+frameless-window/bottom-titlebar.png
+frameless-window/button_close.png
+frameless-window/button_close_hover.png
+frameless-window/frameless_window.html
+frameless-window/frameless_window.js
+frameless-window/icon_128.png
+frameless-window/left-titlebar.png
+frameless-window/package.json
+frameless-window/right-titlebar.png
+frameless-window/style.css
+frameless-window/titlebar.js
+frameless-window/top-titlebar.png
+mini-code-edit/README.md
+
+commit 7b8c73b
+Author: Zhao Cheng <zcbenz@gmail.com>
+Date:   Sat Oct 13 23:10:31 2012 +0800
+
+    Init with mini-code-edit demo.
+
+README.md
+mini-code-edit/README.md
+mini-code-edit/assets/icon-128.png
+mini-code-edit/assets/screenshot-640x400.png
+mini-code-edit/assets/tile-440x280.png
+mini-code-edit/cm/LICENSE
+mini-code-edit/cm/README.md
+mini-code-edit/cm/demo/activeline.html
+mini-code-edit/cm/demo/changemode.html
+mini-code-edit/cm/demo/closetag.html
+mini-code-edit/cm/demo/complete.html
+mini-code-edit/cm/demo/emacs.html
+mini-code-edit/cm/demo/folding.html
+mini-code-edit/cm/demo/formatting.html
+mini-code-edit/cm/demo/fullscreen.html
+mini-code-edit/cm/demo/loadmode.html
+mini-code-edit/cm/demo/marker.html
+mini-code-edit/cm/demo/matchhighlighter.html
+mini-code-edit/cm/demo/mustache.html
+mini-code-edit/cm/demo/preview.html
+mini-code-edit/cm/demo/resize.html
+mini-code-edit/cm/demo/runmode.html
+mini-code-edit/cm/demo/search.html
+mini-code-edit/cm/demo/theme.html
+mini-code-edit/cm/demo/vim.html
+mini-code-edit/cm/demo/visibletabs.html
+mini-code-edit/cm/doc/baboon.png
+mini-code-edit/cm/doc/baboon_vector.svg
+mini-code-edit/cm/doc/compress.html
+mini-code-edit/cm/doc/docs.css
+mini-code-edit/cm/doc/internals.html
+mini-code-edit/cm/doc/manual.html
+mini-code-edit/cm/doc/oldrelease.html
+mini-code-edit/cm/doc/reporting.html
+mini-code-edit/cm/doc/upgrade_v2.2.html
+mini-code-edit/cm/index.html
+mini-code-edit/cm/keymap/emacs.js
+mini-code-edit/cm/keymap/vim.js
+mini-code-edit/cm/lib/codemirror.css
+mini-code-edit/cm/lib/codemirror.js
+mini-code-edit/cm/lib/util/closetag.js
+mini-code-edit/cm/lib/util/dialog.css
+mini-code-edit/cm/lib/util/dialog.js
+mini-code-edit/cm/lib/util/foldcode.js
+mini-code-edit/cm/lib/util/formatting.js
+mini-code-edit/cm/lib/util/javascript-hint.js
+mini-code-edit/cm/lib/util/loadmode.js
+mini-code-edit/cm/lib/util/match-highlighter.js
+mini-code-edit/cm/lib/util/overlay.js
+mini-code-edit/cm/lib/util/runmode.js
+mini-code-edit/cm/lib/util/search.js
+mini-code-edit/cm/lib/util/searchcursor.js
+mini-code-edit/cm/lib/util/simple-hint.css
+mini-code-edit/cm/lib/util/simple-hint.js
+mini-code-edit/cm/mode/clike/clike.js
+mini-code-edit/cm/mode/clike/index.html
+mini-code-edit/cm/mode/clojure/clojure.js
+mini-code-edit/cm/mode/clojure/index.html
+mini-code-edit/cm/mode/coffeescript/LICENSE
+mini-code-edit/cm/mode/coffeescript/coffeescript.js
+mini-code-edit/cm/mode/coffeescript/index.html
+mini-code-edit/cm/mode/css/css.js
+mini-code-edit/cm/mode/css/index.html
+mini-code-edit/cm/mode/diff/diff.js
+mini-code-edit/cm/mode/diff/index.html
+mini-code-edit/cm/mode/ecl/ecl.js
+mini-code-edit/cm/mode/ecl/index.html
+mini-code-edit/cm/mode/erlang/erlang.js
+mini-code-edit/cm/mode/erlang/index.html
+mini-code-edit/cm/mode/gfm/gfm.js
+mini-code-edit/cm/mode/gfm/index.html
+mini-code-edit/cm/mode/go/go.js
+mini-code-edit/cm/mode/go/index.html
+mini-code-edit/cm/mode/groovy/groovy.js
+mini-code-edit/cm/mode/groovy/index.html
+mini-code-edit/cm/mode/haskell/haskell.js
+mini-code-edit/cm/mode/haskell/index.html
+mini-code-edit/cm/mode/htmlembedded/htmlembedded.js
+mini-code-edit/cm/mode/htmlembedded/index.html
+mini-code-edit/cm/mode/htmlmixed/htmlmixed.js
+mini-code-edit/cm/mode/htmlmixed/index.html
+mini-code-edit/cm/mode/javascript/index.html
+mini-code-edit/cm/mode/javascript/javascript.js
+mini-code-edit/cm/mode/jinja2/index.html
+mini-code-edit/cm/mode/jinja2/jinja2.js
+mini-code-edit/cm/mode/less/index.html
+mini-code-edit/cm/mode/less/less.js
+mini-code-edit/cm/mode/lua/index.html
+mini-code-edit/cm/mode/lua/lua.js
+mini-code-edit/cm/mode/markdown/index.html
+mini-code-edit/cm/mode/markdown/markdown.js
+mini-code-edit/cm/mode/mysql/index.html
+mini-code-edit/cm/mode/mysql/mysql.js
+mini-code-edit/cm/mode/ntriples/index.html
+mini-code-edit/cm/mode/ntriples/ntriples.js
+mini-code-edit/cm/mode/pascal/LICENSE
+mini-code-edit/cm/mode/pascal/index.html
+mini-code-edit/cm/mode/pascal/pascal.js
+mini-code-edit/cm/mode/perl/LICENSE
+mini-code-edit/cm/mode/perl/index.html
+mini-code-edit/cm/mode/perl/perl.js
+mini-code-edit/cm/mode/php/index.html
+mini-code-edit/cm/mode/php/php.js
+mini-code-edit/cm/mode/pig/index.html
+mini-code-edit/cm/mode/pig/pig.js
+mini-code-edit/cm/mode/plsql/index.html
+mini-code-edit/cm/mode/plsql/plsql.js
+mini-code-edit/cm/mode/properties/index.html
+mini-code-edit/cm/mode/properties/properties.js
+mini-code-edit/cm/mode/python/LICENSE.txt
+mini-code-edit/cm/mode/python/index.html
+mini-code-edit/cm/mode/python/python.js
+mini-code-edit/cm/mode/r/LICENSE
+mini-code-edit/cm/mode/r/index.html
+mini-code-edit/cm/mode/r/r.js
+mini-code-edit/cm/mode/rpm/changes/changes.js
+mini-code-edit/cm/mode/rpm/changes/index.html
+mini-code-edit/cm/mode/rpm/spec/index.html
+mini-code-edit/cm/mode/rpm/spec/spec.css
+mini-code-edit/cm/mode/rpm/spec/spec.js
+mini-code-edit/cm/mode/rst/index.html
+mini-code-edit/cm/mode/rst/rst.js
+mini-code-edit/cm/mode/ruby/LICENSE
+mini-code-edit/cm/mode/ruby/index.html
+mini-code-edit/cm/mode/ruby/ruby.js
+mini-code-edit/cm/mode/rust/index.html
+mini-code-edit/cm/mode/rust/rust.js
+mini-code-edit/cm/mode/scheme/index.html
+mini-code-edit/cm/mode/scheme/scheme.js
+mini-code-edit/cm/mode/shell/index.html
+mini-code-edit/cm/mode/shell/shell.js
+mini-code-edit/cm/mode/smalltalk/index.html
+mini-code-edit/cm/mode/smalltalk/smalltalk.js
+mini-code-edit/cm/mode/smarty/index.html
+mini-code-edit/cm/mode/smarty/smarty.js
+mini-code-edit/cm/mode/sparql/index.html
+mini-code-edit/cm/mode/sparql/sparql.js
+mini-code-edit/cm/mode/stex/index.html
+mini-code-edit/cm/mode/stex/stex.js
+mini-code-edit/cm/mode/stex/test.html
+mini-code-edit/cm/mode/tiddlywiki/index.html
+mini-code-edit/cm/mode/tiddlywiki/tiddlywiki.css
+mini-code-edit/cm/mode/tiddlywiki/tiddlywiki.js
+mini-code-edit/cm/mode/tiki/index.html
+mini-code-edit/cm/mode/tiki/tiki.css
+mini-code-edit/cm/mode/tiki/tiki.js
+mini-code-edit/cm/mode/vbscript/index.html
+mini-code-edit/cm/mode/vbscript/vbscript.js
+mini-code-edit/cm/mode/velocity/index.html
+mini-code-edit/cm/mode/velocity/velocity.js
+mini-code-edit/cm/mode/verilog/index.html
+mini-code-edit/cm/mode/verilog/verilog.js
+mini-code-edit/cm/mode/xml/index.html
+mini-code-edit/cm/mode/xml/xml.js
+mini-code-edit/cm/mode/xquery/LICENSE
+mini-code-edit/cm/mode/xquery/index.html
+mini-code-edit/cm/mode/xquery/test/index.html
+mini-code-edit/cm/mode/xquery/test/testBase.js
+mini-code-edit/cm/mode/xquery/test/testEmptySequenceKeyword.js
+mini-code-edit/cm/mode/xquery/test/testMultiAttr.js
+mini-code-edit/cm/mode/xquery/test/testNamespaces.js
+mini-code-edit/cm/mode/xquery/test/testProcessingInstructions.js
+mini-code-edit/cm/mode/xquery/test/testQuotes.js
+mini-code-edit/cm/mode/xquery/xquery.js
+mini-code-edit/cm/mode/yaml/index.html
+mini-code-edit/cm/mode/yaml/yaml.js
+mini-code-edit/cm/test/index.html
+mini-code-edit/cm/test/mode_test.css
+mini-code-edit/cm/test/mode_test.js
+mini-code-edit/cm/test/test.js
+mini-code-edit/cm/theme/ambiance.css
+mini-code-edit/cm/theme/blackboard.css
+mini-code-edit/cm/theme/cobalt.css
+mini-code-edit/cm/theme/eclipse.css
+mini-code-edit/cm/theme/elegant.css
+mini-code-edit/cm/theme/erlang-dark.css
+mini-code-edit/cm/theme/lesser-dark.css
+mini-code-edit/cm/theme/monokai.css
+mini-code-edit/cm/theme/neat.css
+mini-code-edit/cm/theme/night.css
+mini-code-edit/cm/theme/rubyblue.css
+mini-code-edit/cm/theme/xq-dark.css
+mini-code-edit/editor.js
+mini-code-edit/img/128x128/file_edit.png
+mini-code-edit/img/16x16/diskette.png
+mini-code-edit/img/16x16/file.png
+mini-code-edit/img/16x16/file_add.png
+mini-code-edit/img/16x16/file_edit.png
+mini-code-edit/img/32x32/diskette.png
+mini-code-edit/img/32x32/file.png
+mini-code-edit/img/32x32/file_add.png
+mini-code-edit/img/32x32/file_edit.png
+mini-code-edit/img/48x48/file_edit.png
+mini-code-edit/img/64x64/file_edit.png
+mini-code-edit/img/README.txt
+mini-code-edit/jquery-1.7.2.min.js
+mini-code-edit/main.html
+mini-code-edit/package.json
+mini-code-edit/style.css
