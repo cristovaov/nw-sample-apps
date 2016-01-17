@@ -1,0 +1,10 @@
+{
+  "name": "ebook-reader",
+  "version": "1.0.0",
+  "description": "epubjs reader demo",
+  "main": "app://ebook-reader/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-remote": "<local>"
+}
